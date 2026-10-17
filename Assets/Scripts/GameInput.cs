@@ -16,12 +16,12 @@ public class GameInput : MonoBehaviour {
 
     public float GetRotationValue() {
         float rotationDirection = playerInputActions.Player.SailRotationDirection.ReadValue<float>();
-        Debug.Log("Rotation: " + rotationDirection);
         return rotationDirection;
     }
 
     public float GetSailChangeValue() {
-        return 0;
+        float sailOpennessChange = playerInputActions.Player.SailOpenness.ReadValue<float>();
+        return sailOpennessChange;
     }
 
 }

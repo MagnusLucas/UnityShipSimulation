@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4729510550567716922}
+  - component: {fileID: 6642949815595423863}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Untagged
@@ -33,6 +34,25 @@ Transform:
   - {fileID: 7389117412892871190}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6642949815595423863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2299362595726104043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db04cfdfe76e09409e9e63615f254a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ship
+  maxBoatSpeed: 1
+  mast: {fileID: 7486940111724196429}
+  mastMinDegrees: -45
+  mastMaxDegrees: 45
+  sail: {fileID: 2336022558350635066}
+  sailMinScale: 1
+  sailMaxScale: 16
 --- !u!1 &2336022558350635066
 GameObject:
   m_ObjectHideFlags: 0
@@ -62,7 +82,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.6, y: 0.125, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.5, z: 8}
+  m_LocalScale: {x: 0.4, y: 0.5, z: 8.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7389117412892871190}

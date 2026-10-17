@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Tutorial: Use WSAD :)" name="SteeringInfo" style="height: auto; font-size: 24px;"/>
+    <ui:Label text="Rotation: " name="RotationLabel" style="height: auto; font-size: 64px;"/>
+    <ui:Label text="Scale: " name="ScaleLabel" style="height: auto; font-size: 64px;"/>
+</ui:UXML>
